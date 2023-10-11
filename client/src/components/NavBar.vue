@@ -1,12 +1,9 @@
 <script setup></script>
 
 <template>
-  <nav
-    style="background-color: #e10600"
-    class="navbar navbar-expand-lg text-light navbar-text navbar-rounded navbar-fixed-top mx-4 mt-4"
-  >
+  <nav style="background-color: #e10600" class="navbar navbar-expand-lg bg-red rounded-4 mx-2 mt-2">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">F1 Quiz</a>
+      <a class="navbar-brand mx-3" href="#">F1 QUIZ</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,32 +16,12 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link mx-3" href="#">About</a>
           </li>
         </ul>
       </div>
@@ -52,16 +29,4 @@
   </nav>
 </template>
 
-<style>
-@font-face {
-  font-family: 'Rockwell';
-  src: url('../../public/webfonts/Rockwell-Font/ROCK.TTF') format('TTF'),
-    url('../../public/webfonts/Rockwell-Font/rockb.ttf') format('ttf');
-  /* Add more font formats if available */
-  /* Specify the path to your font files based on your project's file structure */
-}
-
-body {
-  font-family: 'Rockwell', sans-serif;
-}
-</style>
+<style></style>
