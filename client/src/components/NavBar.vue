@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <nav style="background-color: #e10600" class="navbar navbar-dark bg-red rounded-4 mx-2 mt-2">
+  <nav style="background-color: #e10600" class="navbar navbar-dark bg-red">
     <div class="container-fluid">
       <a class="navbar-brand mx-3" href="#">F1 QUIZ</a>
       <button
@@ -48,7 +48,4 @@
 </template>
 
 <style>
-.navbar-toggler-icon {
-  border-width: 10px;
-}
 </style>
