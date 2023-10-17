@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <div class="container text-center">HOME</div>
+  <div class="container text-center">EASY</div>
 </template>

@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
-  <div class="about"></div>
+  <div class="container text-center">ABOUT</div>
 </template>
