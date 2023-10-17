@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-  <nav style="background-color: #e10600" class="navbar navbar-dark bg-red">
+  <nav style="background-color: #e10600" class="navbar navbar-expand-lg navbar-dark bg-red">
     <div class="container-fluid">
       <RouterLink class="navbar-brand mx-3" to="/home">F1 QUIZ</RouterLink>
       <button
@@ -20,7 +20,9 @@ import { RouterLink, RouterView } from 'vue-router';
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
           <li class="nav-item">
-            <RouterLink class="nav-link active mx-3" aria-current="page" to="/home">Home</RouterLink>
+            <RouterLink class="nav-link active mx-3" aria-current="page" to="/home"
+              >Home</RouterLink
+            >
           </li>
           <li class="nav-item dropdown">
             <a
