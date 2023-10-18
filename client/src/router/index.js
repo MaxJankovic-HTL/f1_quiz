@@ -15,17 +15,17 @@ const router = createRouter({
     },
     {
       path: '/quiz-easy',
-      name: 'quizeasy',
+      name: 'quiz-easy',
       component: () => import('../views/EasyQuizView.vue'),
     },
     {
       path: '/quiz-medium',
-      name: 'quizmedium',
+      name: 'quiz-medium',
       component: () => import('../views/MediumQuizView.vue'),
     },
     {
       path: '/quiz-hard',
-      name: 'quizhard',
+      name: 'quiz-hard',
       component: () => import('../views/HardQuizView.vue'),
     },
     {
