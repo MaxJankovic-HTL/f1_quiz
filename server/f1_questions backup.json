@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "Wie heißt der aktuelle Formel-1-Weltmeister?",
+      "answer": "Max Verstappen",
+      "options": ["Charles Leclerc", "Lewis Hamilton", "Max Verstappen", "Fernando Alonso"]
+    },
+    {
+      "question": "Was ist die längste Formel-1-Rennstrecke?",
+      "answer": "Indianapolis Motor Speedway",
+      "options": [
+        "Circuit de Spa-Francorchamps",
+        "Monaco Grand Prix",
+        "Indianapolis Motor Speedway",
+        "Circuit Gilles Villeneuve"
+      ]
+    },
+    {
+      "question": "Wie viele Motoren darf ein Formel-1-Auto pro Saison verwenden?",
+      "answer": "3",
+      "options": ["2", "3", "4", "5"]
+    },
+    {
+      "question": "Welcher Fahrer hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
+      "answer": "Michael Schumacher",
+      "options": ["Michael Schumacher", "Lewis Hamilton", "Juan Manuel Fangio", "Alain Prost"]
+    },
+    {
+      "question": "Welches Team hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
+      "answer": "Mercedes",
+      "options": ["Mercedes", "Ferrari", "McLaren", "Williams"]
+    },
+    {
+      "question": "Welche Farbe haben die Reifen in der Formel 1?",
+      "answer": "Schwarz",
+      "options": ["Schwarz", "Weiß", "Blau", "Rot"]
+    },
+    {
+      "question": "Wie viele Gänge hat ein Formel-1-Getriebe?",
+      "answer": "8",
+      "options": ["6", "7", "8", "9"]
+    }
+  ]
+}
