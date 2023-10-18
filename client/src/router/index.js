@@ -16,17 +16,17 @@ const router = createRouter({
     {
       path: '/quiz-easy',
       name: 'quizeasy',
-      component: () => import('../views/QuizEasyView.vue'),
+      component: () => import('../views/EasyQuizView.vue'),
     },
     {
       path: '/quiz-medium',
       name: 'quizmedium',
-      component: () => import('../views/QuizMediumView.vue'),
+      component: () => import('../views/MediumQuizView.vue'),
     },
     {
       path: '/quiz-hard',
       name: 'quizhard',
-      component: () => import('../views/QuizHardView.vue'),
+      component: () => import('../views/HardQuizView.vue'),
     },
     {
       path: '/about',

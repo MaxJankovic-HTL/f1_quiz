@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <nav style="background-color: #e10600" class="navbar navbar-expand-lg navbar-dark bg-red">
+  <nav style="background-color: #e10600" class="navbar navbar-expand-lg navbar-dark bg-red py-3">
     <div class="container-fluid">
       <RouterLink class="navbar-brand mx-3" to="/">F1 QUIZ</RouterLink>
       <button
