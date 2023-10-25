@@ -2,7 +2,7 @@
 import data from '../../../server/f1_questions.json';
 
 function randomQuestion() {
-  const hardData = data.filter((item) => item.difficulty === 'hard');
+  const hardData = data.questions.filter((item) => item.difficulty === 'hard');
   const randomIndex = Math.floor(Math.random() * hardData.length);
   return hardData[randomIndex];
 }
