@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 import data from '../../../server/f1_questions.json';
 
 function randomQuestion() {
@@ -12,14 +12,14 @@ function randomQuestion() {
   <div class="container text-center mt-4">
     <p>{{ randomQuestion().question }}</p>
   </div>
-</template> -->
+</template>
 
-<script setup>
+<!-- <script setup>
 import { json } from '@vue/composition-api';
 
 const questions = json.parseFile('./data.json');
 const easyQuestions = questions.filter((question) => question.difficulty === 'easy');
-</script>
+</script> 
 
 <template>
   <div class="container text-center mt-4">
@@ -27,4 +27,4 @@ const easyQuestions = questions.filter((question) => question.difficulty === 'ea
       {{ question.question }}
     </p>
   </div>
-</template>
+</template> -->
