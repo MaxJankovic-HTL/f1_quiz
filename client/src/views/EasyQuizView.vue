@@ -14,6 +14,7 @@ function randomQuestion() {
   </div>
 </template>
 
+// Das hier hat nicht funktioniert.
 <!-- <script setup>
 import { json } from '@vue/composition-api';
 
