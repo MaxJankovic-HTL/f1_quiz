@@ -31,6 +31,7 @@ const checkAnswer = (option) => {
     <div class="card text-center">
       <div class="card-header text-light" style="background-color: #e10700"><b>- MEDIUM -</b></div>
       <div class="card-body">
+        <img src="../../public/images/f1_logo_dark.png" style="width: 60%" />
         <h5 class="card-title">{{ showQuestion.map((el) => el.question).toString() }}</h5>
       </div>
       <div class="card-footer text-muted">
@@ -38,22 +39,26 @@ const checkAnswer = (option) => {
           href="#"
           class="btn btn-secondary mx-4"
           @click="checkAnswer(showQuestion.map((el) => el.options[0]).toString())"
-        >{{ showQuestion.map((el) => el.options[0]).toString() }}</btn>
+          >{{ showQuestion.map((el) => el.options[0]).toString() }}</btn
+        >
         <btn
           href="#"
           class="btn btn-secondary mx-4"
           @click="checkAnswer(showQuestion.map((el) => el.options[1]).toString())"
-        >{{ showQuestion.map((el) => el.options[1]).toString() }}</btn>
+          >{{ showQuestion.map((el) => el.options[1]).toString() }}</btn
+        >
         <btn
           href="#"
           class="btn btn-secondary mx-4"
           @click="checkAnswer(showQuestion.map((el) => el.options[2]).toString())"
-        >{{ showQuestion.map((el) => el.options[2]).toString() }}</btn>
+          >{{ showQuestion.map((el) => el.options[2]).toString() }}</btn
+        >
         <btn
           href="#"
           class="btn btn-secondary mx-4"
           @click="checkAnswer(showQuestion.map((el) => el.options[3]).toString())"
-        >{{ showQuestion.map((el) => el.options[3]).toString() }}</btn>
+          >{{ showQuestion.map((el) => el.options[3]).toString() }}</btn
+        >
       </div>
     </div>
   </div>

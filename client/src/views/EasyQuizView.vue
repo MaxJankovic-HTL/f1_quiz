@@ -31,6 +31,7 @@ const checkAnswer = (option) => {
     <div class="card text-center">
       <div class="card-header text-light" style="background-color: #e10700"><b>- EASY -</b></div>
       <div class="card-body">
+        <img src="../../public/images/f1_logo_dark.png" style="width: 60%" />
         <h5 class="card-title">{{ showQuestion.map((el) => el.question).toString() }}</h5>
       </div>
       <div class="card-footer text-muted">
