@@ -32,7 +32,7 @@ const checkAnswer = (option) => {
       <div class="card-header text-light" style="background-color: #e10700"><b>- HARD -</b></div>
       <div class="card-body">
         <img src="../../public/images/f1_empty_image.png" style="width: 60%" />
-        <h5 class="card-title">{{ showQuestion.map((el) => el.question).toString() }}</h5>
+        <h5 class="card-title mt-3">{{ showQuestion.map((el) => el.question).toString() }}</h5>
       </div>
       <div class="card-footer text-muted">
         <btn
