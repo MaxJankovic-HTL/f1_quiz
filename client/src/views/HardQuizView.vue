@@ -65,7 +65,4 @@ const checkAnswer = (option) => {
 </template>
 
 <style>
-body {
-  background-color: #f7f4f1;
-}
 </style>
