@@ -20,8 +20,18 @@
         },
         {
           "question": "Welches Team hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
-          "answer": "Mercedes",
+          "answer": "Ferrari",
           "options": ["Mercedes", "Ferrari", "McLaren", "Williams"]
+        },
+        {
+          "question": "Wie viele Formel-1-Weltmeisterschaften hat Niki Lauda gewonnen?",
+          "answer": "3",
+          "options": ["1", "3", "2", "4"]
+        },
+        {
+          "question": "Welcher Fahrer hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
+          "answer": "Michael Schumacher",
+          "options": ["Michael Schumacher", "Lewis Hamilton", "Juan Manuel Fangio", "Alain Prost"]
         }
       ]
     },
@@ -37,6 +47,71 @@
           "question": "Wie viele Motoren darf ein Formel-1-Auto pro Saison verwenden?",
           "answer": "3",
           "options": ["2", "3", "4", "5"]
+        },
+        {
+          "question": "Wie viele Gänge hat ein Formel-1-Getriebe?",
+          "answer": "8",
+          "options": ["6", "7", "8", "9"]
+        },
+        {
+          "question": "In welchem Jahr wurde die erste offizielle Formel-1-Weltmeisterschaft ausgetragen?",
+          "answer": "1950",
+          "options": ["1945", "1950", "1940", "1930"]
+        },
+        {
+          "question": "In welchem Land findet das berühmte Nachtrennen der Formel 1 statt?",
+          "answer": "Singapore",
+          "options": ["Bahrain", "Singapore", "Las Vegas", "Saudi Arabien"]
+        },
+        {
+          "question": "Wie viele Punkte erhält der Sieger eines Formel-1-Rennens?",
+          "answer": "25",
+          "options": ["30", "20", "10", "25"]
+        },
+        {
+          "question": "Welches Team dominierte die Formel 1 in den 2010er Jahren?",
+          "answer": "Mercedes",
+          "options": ["Red Bull", "McLaren", "Mercedes", "Ferrari"]
+        },
+        {
+          "question": "Welcher italienische Rennstall ist als die Scuderia bekannt?",
+          "answer": "Ferrari",
+          "options": ["Alfa Romeo", "Lancia", "Ferrari", "Maserati"]
+        },
+        {
+          "question": "Welcher Fahrer gewann den ersten Formel-1-Weltmeistertitel?",
+          "answer": "Giuseppe Farina",
+          "options": ["Alberto Ascari", "Juan Manuel Fangio", "Giuseppe Farina", "Stirling Moss"]
+        },
+        {
+          "question": "Welcher Fahrer gewann in den 1950er Jahren fünf Formel-1-Weltmeistertitel?",
+          "answer": "Juan Manuel Fangio",
+          "options": ["Alberto Ascari", "Juan Manuel Fangio", "Giuseppe Farina", "Stirling Moss"]
+        },
+        {
+          "question": "Welcher Fahrer wurde als der Regenmeister bezeichnet?",
+          "answer": "Michael Schumacher",
+          "options": ["Max Verstappen", "Ayrton Senna", "Michael Schumacher", "Jim Clark"]
+        },
+        {
+          "question": "Mit welchem Team gewann Fernando Alonso seine Weltmeistertitel?",
+          "answer": "Renault",
+          "options": ["Ferrari", "Renault", "McLaren", "Toyota"]
+        },
+        {
+          "question": "Welche Strecke ist als der Tempel of Speed bekannt",
+          "answer": "Monza",
+          "options": ["Baku", "Spa", "Monza", "Silverstone"]
+        },
+        {
+          "question": "Welcher Rennfahrer ist für seinen spektakulären Überholvorgang beim Grand Prix von Europa 1993 in Donington Park bekannt?",
+          "answer": "Ayrton Senna",
+          "options": ["Nigel Mansell", "Ayrton Senna", "Alain Prost", "Damon Hill"]
+        },
+        {
+          "question": "Welcher Fahrer gewann den Titel 2007?",
+          "answer": "Kimi Räikkönen",
+          "options": ["Fernando Alonso", "Felipe Massa", "Kimi Räikkönen", "Lewis Hamilton"]
         }
       ]
     },
@@ -44,14 +119,149 @@
       "difficulty": "hard",
       "questions": [
         {
-          "question": "Welcher Fahrer hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
-          "answer": "Michael Schumacher",
-          "options": ["Michael Schumacher", "Lewis Hamilton", "Juan Manuel Fangio", "Alain Prost"]
+          "question": "Welcher Fahrer hält den Rekord für die meisten aufeinanderfolgenden Grand-Prix-Siege?",
+          "answer": "Max Verstappen",
+          "options": ["Max Verstappen", "Sebastian Vettel", "Michael Schumacher", "Jim Clark"]
         },
         {
-          "question": "Wie viele Gänge hat ein Formel-1-Getriebe?",
-          "answer": "8",
-          "options": ["6", "7", "8", "9"]
+          "question": "Welches Team gewann die erste Formel-1-Konstrukteursmeisterschaft?",
+          "answer": "Alfa Romeo",
+          "options": ["Ferrari", "Alfa Romeo", "Maserati", "Mercedes"]
+        },
+        {
+          "question": "Wer ist der einzige Fahrer, der posthum den Formel-1-Weltmeistertitel gewonnen hat?",
+          "answer": "Jochen Rind",
+          "options": ["Ayrton Senna", "Jochen Rind", "Jim Clark", "Stirling Moss"]
+        },
+        {
+          "question": "Welcher Fahrer wurde als der fliegende Finne bekannt?",
+          "answer": "Mika Häkkinnen",
+          "options": ["Kimi Räikkönen", "Mika Häkkinnen", "Mika Salo", "Hanu Mikula"]
+        },
+        {
+          "question": "Welcher Rennfahrer hält den Rekord für die meisten schnellsten Rennrunden in einer Saison?",
+          "answer": "Kimi Räikkönen",
+          "options": ["Fernando Alonso", "Michael Schumacher", "Kimi Räikkönen", "Max Verstappen"]
+        },
+        {
+          "question": "Welcher Rennstall war berüchtigt für seinen Double Diffuser?",
+          "answer": "Brawn GP",
+          "options": ["Toyota", "Brawn GP", "Williams", "Red Bull"]
+        },
+        {
+          "question": "Welcher Fahrer hält den Rekord für die meisten Podestplatzierungen, ohne je Weltmeister geworden zu sein?",
+          "answer": "Riccardo Patrese",
+          "options": ["Stirling Moss", "Riccardo Patrese", "Daniel Riccardo", "Felipe Massa"]
+        },
+        {
+          "question": "Welcher Fahrer wurde 1997, im letzten Rennen, disqualifiziert?",
+          "answer": "Michael Schumacher",
+          "options": [
+            "Damon Hill",
+            "Michael Schumacher",
+            "Jacques Villeneuve",
+            "Heinz-Harald Frentzen"
+          ]
+        },
+        {
+          "question": "Welcher Fahrer ist 1978 beim Großen Preis von Italien verunglückt?",
+          "answer": "Ronnie Peterson",
+          "options": ["Niki Lauda", "Ronnie Peterson", "James Hunt", "Vittorio Brambilla"]
+        },
+        {
+          "question": "Welcher Rennstall hat das meiste Geld für Strafen in der Formel 1 gezahlt?",
+          "answer": "McLaren",
+          "options": ["Ferrari", "McLaren", "Williams", "Mercedes"]
+        },
+        {
+          "question": "Welcher Grand Prix hat die längste Distanz im Rennkalender?",
+          "answer": "Spa-Francorchamps",
+          "options": ["Mexico", "Spa-Francorchamps", "Baku", "Monza"]
+        },
+        {
+          "question": "Welcher Rennfahrer wurde als der Professor bezeichnet?",
+          "answer": "Alan Prost",
+          "options": ["Ayrton Senna", "Alan Prost", "Michael Schumacher", "Fernando Alonso"]
+        },
+        {
+          "question": "Welcher Fahrer gewann den Weltmeistertitel nach einem der dramatischsten letzten Rennen in der Geschichte der Formel 1?",
+          "answer": "Sebastian Vettel",
+          "options": ["Max Verstappen", "Sebastian Vettel", "Kimi Räikkönen", "Lewis Hamilton"]
+        },
+        {
+          "question": "In welchem Jahr wurde das Grid Girls-Programm in der Formel 1 offiziell eingestellt?",
+          "answer": "2018",
+          "options": ["2015", "2017", "2018", "2016"]
+        },
+        {
+          "question": "Welcher Rennfahrer gewann den ersten Grand Prix, der jemals in der Formel 1 ausgetragen wurde?",
+          "answer": "Giuseppe Farina",
+          "options": [
+            "Juan Manuel Fangio",
+            "Giuseppe Farina",
+            "Alberto Ascari",
+            "Vittorio Brambilla"
+          ]
+        },
+        {
+          "question": "Wer war der letzte Fahrer der in der Formel-1 verunglückt ist?",
+          "answer": "Jules Bianchi",
+          "options": ["Ayrton Senna", "Jules Bianchi", "Roland Ratzenberger", "Anthoine Hubert"]
+        },
+        {
+          "question": "Welches Team brachte Ground Effect in die Formel 1",
+          "answer": "Lotus",
+          "options": ["Williams", "Lotus", "Renault", "Red Bull"]
+        },
+        {
+          "question": "Welches Team brachte Turbos in die Formel 1",
+          "answer": "Renault",
+          "options": ["Ferrari", "Renault", "Ford", "Honda"]
+        },
+        {
+          "question": "Welchem Zweck dient die Airbox hauptsächlich?",
+          "answer": "Sauerstoffzufuhr für den Motor",
+          "options": [
+            "Verbesserte Aerodynamik",
+            "Öffnung für die Onboard-Kamera",
+            "Kühlung des Motors",
+            "Sauerstoffzufuhr für den Motor"
+          ]
+        },
+        {
+          "question": "Welchen Motorsport-Klassiker konnte Jim Clark in seinem Titeljahr 1965 zusätzlich gewinnen?",
+          "answer": "Indy 500",
+          "options": ["24 Stunden von Le Mans", "12 Stunden von Sebring", "Indy 500", "Daytona 500"]
+        },
+        {
+          "question": "Was ist ein Curb?",
+          "answer": "Randstein",
+          "options": ["Aerodynamisches Element", "Bauteil des Motors", "Randstein", "Überrollbügel"]
+        },
+        {
+          "question": "Welches Material macht die Fahrerkleidung feuerfest?",
+          "answer": "Nomex",
+          "options": ["Stahlwolle", "Glasfaser", "Elasthan", "Nomex"]
+        },
+        {
+          "question": "Was wurde Ende 1993in der Formel 1 verboten?",
+          "answer": "aktive Aufhängung",
+          "options": ["Slick-Reifen", "Turbomotoren", "aktive Aufhängung", "Wing-Cars"]
+        },
+        {
+          "question": "Wie alt war Alan Jones, als er erstmals Formel-1-Weltmeister wurde?",
+          "answer": "33",
+          "options": ["34", "33", "21", "25"]
+        },
+        {
+          "question": "Seit 1982 wird der Kanada GP auf dem Circuit Gilles Villeneuve gefahren. Wie hieß die Strecke vorher?",
+          "answer": "Ile Notre-Dame Circuit",
+          "options": [
+            "Circuit du Expo '67",
+            "St Lawrence Speedway",
+            "Ile Notre-Dame Circuit",
+            "Quebec International Raceway"
+          ]
         }
       ]
     }
