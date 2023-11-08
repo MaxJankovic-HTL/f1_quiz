@@ -5,7 +5,10 @@ import { RouterLink } from 'vue-router';
 <template>
   <nav style="background-color: #e10600" class="navbar navbar-expand-lg navbar-dark bg-red py-3">
     <div class="container-fluid">
-      <RouterLink class="navbar-brand mx-3" to="/"><img src="../../public/images/f1_logo.png" style="height: 50px; margin-top: -2px;"> QUIZ</RouterLink>
+      <RouterLink class="navbar-brand mx-3" to="/"
+        ><img src="../../public/images/f1_logo.png" style="height: 50px; margin-top: -2px" />
+        QUIZ</RouterLink
+      >
       <button
         class="navbar-toggler"
         type="button"
