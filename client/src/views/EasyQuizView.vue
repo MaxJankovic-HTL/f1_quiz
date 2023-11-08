@@ -20,7 +20,7 @@ const checkAnswer = (option) => {
     isCorrect.value = true;
     alert('Congratulations! You answered correctly.');
   } else {
-    isCorrect.value = false;
+    isCorrect.value = false;  
     alert('Incorrect answer. The correct answer is ' + correctAnswer.value);
   }
 };
