@@ -5,11 +5,6 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('../views/HomeView.vue'),
-    },
-    {
-      path: '/quiz',
       name: 'quiz',
       component: () => import('../views/QuizView.vue'),
     },
@@ -27,11 +22,6 @@ const router = createRouter({
       path: '/quiz-hard',
       name: 'quiz-hard',
       component: () => import('../views/HardQuizView.vue'),
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue'),
     },
   ],
 });

@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router';
 <template>
   <nav style="background-color: #e10600" class="navbar navbar-expand-lg navbar-dark bg-red py-3">
     <div class="container-fluid">
-      <RouterLink class="navbar-brand mx-3" to="/"
+      <RouterLink class="navbar-brand mx-3" to="/" style="color: white; font-weight: 500"
         ><img src="../../public/images/f1_logo.png" style="height: 50px; margin-top: -2px" />
         QUIZ</RouterLink
       >
@@ -23,27 +23,19 @@ import { RouterLink } from 'vue-router';
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
           <li class="nav-item">
-            <RouterLink class="nav-link active mx-3" aria-current="page" to="/">Home</RouterLink>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle mx-3"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
+            <RouterLink class="nav-link active mx-3" aria-current="page" to="/quiz-easy"
+              >EASY</RouterLink
             >
-              Quiz
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><RouterLink class="dropdown-item" to="/quiz-easy">Easy</RouterLink></li>
-              <li><RouterLink class="dropdown-item" to="/quiz-medium">Medium</RouterLink></li>
-              <li><RouterLink class="dropdown-item" to="/quiz-hard">Hard</RouterLink></li>
-            </ul>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link mx-3" to="/about">About</RouterLink>
+            <RouterLink class="nav-link active mx-3" aria-current="page" to="/quiz-medium"
+              >MEDIUM</RouterLink
+            >
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link active mx-3" aria-current="page" to="/quiz-hard"
+              >HARD</RouterLink
+            >
           </li>
         </ul>
       </div>
