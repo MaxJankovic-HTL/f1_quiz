@@ -37,25 +37,25 @@ const checkAnswer = (option) => {
       <div class="card-footer text-muted">
         <btn
           href="#"
-          class="btn btn-outline-secondary mx-4"
+          class="btn btn-outline-secondary mx-4 mt-2 mb-2"
           @click="checkAnswer(showQuestion.map((el) => el.options[0]).toString())"
           >{{ showQuestion.map((el) => el.options[0]).toString() }}</btn
         >
         <btn
           href="#"
-          class="btn btn-outline-secondary mx-4"
+          class="btn btn-outline-secondary mx-4 mt-2 mb-2"
           @click="checkAnswer(showQuestion.map((el) => el.options[1]).toString())"
           >{{ showQuestion.map((el) => el.options[1]).toString() }}</btn
         >
         <btn
           href="#"
-          class="btn btn-outline-secondary mx-4"
+          class="btn btn-outline-secondary mx-4 mt-2 mb-2"
           @click="checkAnswer(showQuestion.map((el) => el.options[2]).toString())"
           >{{ showQuestion.map((el) => el.options[2]).toString() }}</btn
         >
         <btn
           href="#"
-          class="btn btn-outline-secondary mx-4"
+          class="btn btn-outline-secondary mx-4 mt-2 mb-2"
           @click="checkAnswer(showQuestion.map((el) => el.options[3]).toString())"
           >{{ showQuestion.map((el) => el.options[3]).toString() }}</btn
         >
