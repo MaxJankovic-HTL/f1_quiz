@@ -4,12 +4,98 @@
       "difficulty": "easy",
       "questions": [
         {
+          "question": "Wie heißt der aktuelle Teamchef von Red Bull?",
+          "type": "teams",
+          "team": "Red Bull",
+          "image": "",
+          "answer": "Christian Horner",
+          "options": ["Adrian Newey", "Christian Horner", "Günther Steiner", "Ditrich Materschitz"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von Ferrari?",
+          "type": "teams",
+          "team": "Ferrari",
+          "image": "",
+          "answer": "Fred Vasseur",
+          "options": ["Mattia Binotto", "Fred Vasseur", "maurizio arrivabene", "Stefano Domenicali"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von Mercedes?",
+          "type": "teams",
+          "team": "Mercedes",
+          "image": "",
+          "answer": "Toto Wolf",
+          "options": ["Ross Brawn", "Toto Wolf", "Niki Lauda", "James Vowles"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von McLaren?",
+          "type": "teams",
+          "team": "McLaren",
+          "image": "",
+          "answer": "Andrea Stella",
+          "options": ["Andreas Seidl", "Andrea Stella", "Ron Dennis", "Zac Brown"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von Aston Martin?",
+          "type": "teams",
+          "team": "Aston Martin",
+          "image": "",
+          "answer": "Mike Krack",
+          "options": ["Otmar Szafnauer", "Lawrance Stroll", "Mike Krack", "Sebastian Vettel"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von Alpine?",
+          "type": "teams",
+          "team": "Alpine",
+          "image": "",
+          "answer": "Bruno Famin",
+          "options": ["Bruno Famin", "Otmar Szafnauer", "Cyril Abiteboul", "Flavio Briatore"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von Haas?",
+          "type": "teams",
+          "team": "Haas",
+          "image": "",
+          "answer": "Günther Steiner",
+          "options": ["Kevin Magnussen", "Romain Grosjean", "Gene Haas", "Günther Steiner"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von Williams?",
+          "type": "teams",
+          "team": "Williams",
+          "image": "",
+          "answer": "James Vowles",
+          "options": ["Frank Williams", "Claire Williams", "James Vowles", "Susi Wolf"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von Alfa Romeo?",
+          "type": "teams",
+          "team": "Alfa Romeo",
+          "image": "",
+          "answer": "Alessandro Bravi",
+          "options": ["Fred Vasseur", "Andreas Seidl", "Alessandro Bravi", "Peter Sauber"]
+        },
+        {
+          "question": "Wie heißt der aktuelle Teamchef von Alphatauri?",
+          "type": "teams",
+          "team": "Alphatauri",
+          "image": "",
+          "answer": "Franz Tost",
+          "options": ["Christian Horner", "Franz Tost", "Ditrich Materschitz", "Helmut Marko"]
+        },
+        {
           "question": "Wie heißt der aktuelle Formel-1-Weltmeister?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Max Verstappen",
           "options": ["Charles Leclerc", "Lewis Hamilton", "Max Verstappen", "Fernando Alonso"]
         },
         {
           "question": "Was ist die längste Formel-1-Rennstrecke?",
+          "type": "tracks",
+          "team": "",
+          "image": "",
           "answer": "Indianapolis Motor Speedway",
           "options": [
             "Circuit de Spa-Francorchamps",
@@ -20,16 +106,25 @@
         },
         {
           "question": "Welches Team hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
+          "type": "teams",
+          "team": "",
+          "image": "",
           "answer": "Ferrari",
           "options": ["Mercedes", "Ferrari", "McLaren", "Williams"]
         },
         {
           "question": "Wie viele Formel-1-Weltmeisterschaften hat Niki Lauda gewonnen?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "3",
           "options": ["1", "3", "2", "4"]
         },
         {
           "question": "Welcher Fahrer hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Michael Schumacher",
           "options": ["Michael Schumacher", "Lewis Hamilton", "Juan Manuel Fangio", "Alain Prost"]
         }
@@ -40,76 +135,121 @@
       "questions": [
         {
           "question": "Welche Farbe haben die Reifen in der Formel 1?",
+          "type": "tech",
+          "team": "",
+          "image": "",
           "answer": "Schwarz",
           "options": ["Schwarz", "Weiß", "Blau", "Rot"]
         },
         {
           "question": "Wie viele Motoren darf ein Formel-1-Auto pro Saison verwenden?",
+          "type": "rules",
+          "team": "",
+          "image": "",
           "answer": "3",
           "options": ["2", "3", "4", "5"]
         },
         {
           "question": "Wie viele Gänge hat ein Formel-1-Getriebe?",
+          "type": "tech",
+          "team": "",
+          "image": "",
           "answer": "8",
           "options": ["6", "7", "8", "9"]
         },
         {
           "question": "In welchem Jahr wurde die erste offizielle Formel-1-Weltmeisterschaft ausgetragen?",
+          "type": "facts",
+          "team": "",
+          "image": "",
           "answer": "1950",
           "options": ["1945", "1950", "1940", "1930"]
         },
         {
           "question": "In welchem Land findet das berühmte Nachtrennen der Formel 1 statt?",
+          "type": "facts",
+          "team": "",
+          "image": "",
           "answer": "Singapore",
           "options": ["Bahrain", "Singapore", "Las Vegas", "Saudi Arabien"]
         },
         {
           "question": "Wie viele Punkte erhält der Sieger eines Formel-1-Rennens?",
+          "type": "rules",
+          "team": "",
+          "image": "",
           "answer": "25",
           "options": ["30", "20", "10", "25"]
         },
         {
           "question": "Welches Team dominierte die Formel 1 in den 2010er Jahren?",
+          "type": "facts",
+          "team": "",
+          "image": "",
           "answer": "Mercedes",
           "options": ["Red Bull", "McLaren", "Mercedes", "Ferrari"]
         },
         {
           "question": "Welcher italienische Rennstall ist als die Scuderia bekannt?",
+          "type": "teams",
+          "team": "Ferrari",
+          "image": "",
           "answer": "Ferrari",
           "options": ["Alfa Romeo", "Lancia", "Ferrari", "Maserati"]
         },
         {
           "question": "Welcher Fahrer gewann den ersten Formel-1-Weltmeistertitel?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Giuseppe Farina",
           "options": ["Alberto Ascari", "Juan Manuel Fangio", "Giuseppe Farina", "Stirling Moss"]
         },
         {
           "question": "Welcher Fahrer gewann in den 1950er Jahren fünf Formel-1-Weltmeistertitel?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Juan Manuel Fangio",
           "options": ["Alberto Ascari", "Juan Manuel Fangio", "Giuseppe Farina", "Stirling Moss"]
         },
         {
           "question": "Welcher Fahrer wurde als der Regenmeister bezeichnet?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Michael Schumacher",
           "options": ["Max Verstappen", "Ayrton Senna", "Michael Schumacher", "Jim Clark"]
         },
         {
           "question": "Mit welchem Team gewann Fernando Alonso seine Weltmeistertitel?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Renault",
           "options": ["Ferrari", "Renault", "McLaren", "Toyota"]
         },
         {
           "question": "Welche Strecke ist als der Tempel of Speed bekannt",
+          "type": "tracks",
+          "team": "",
+          "image": "",
           "answer": "Monza",
           "options": ["Baku", "Spa", "Monza", "Silverstone"]
         },
         {
           "question": "Welcher Rennfahrer ist für seinen spektakulären Überholvorgang beim Grand Prix von Europa 1993 in Donington Park bekannt?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Ayrton Senna",
           "options": ["Nigel Mansell", "Ayrton Senna", "Alain Prost", "Damon Hill"]
         },
         {
           "question": "Welcher Fahrer gewann den Titel 2007?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Kimi Räikkönen",
           "options": ["Fernando Alonso", "Felipe Massa", "Kimi Räikkönen", "Lewis Hamilton"]
         }
@@ -120,41 +260,65 @@
       "questions": [
         {
           "question": "Welcher Fahrer hält den Rekord für die meisten aufeinanderfolgenden Grand-Prix-Siege?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Max Verstappen",
-          "options": ["Max Verstappen", "Sebastian Vettel", "Michael Schumacher", "Jim Clark"]
+          "options": ["Max Verstappen", "Sebastian Vettel", "Michael Schumacher", "Lewis Hamilton"]
         },
         {
           "question": "Welches Team gewann die erste Formel-1-Konstrukteursmeisterschaft?",
+          "type": "teams",
+          "team": "Alfa Romeo",
+          "image": "",
           "answer": "Alfa Romeo",
           "options": ["Ferrari", "Alfa Romeo", "Maserati", "Mercedes"]
         },
         {
           "question": "Wer ist der einzige Fahrer, der posthum den Formel-1-Weltmeistertitel gewonnen hat?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Jochen Rind",
           "options": ["Ayrton Senna", "Jochen Rind", "Jim Clark", "Stirling Moss"]
         },
         {
           "question": "Welcher Fahrer wurde als der fliegende Finne bekannt?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Mika Häkkinnen",
           "options": ["Kimi Räikkönen", "Mika Häkkinnen", "Mika Salo", "Hanu Mikula"]
         },
         {
           "question": "Welcher Rennfahrer hält den Rekord für die meisten schnellsten Rennrunden in einer Saison?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Kimi Räikkönen",
           "options": ["Fernando Alonso", "Michael Schumacher", "Kimi Räikkönen", "Max Verstappen"]
         },
         {
           "question": "Welcher Rennstall war berüchtigt für seinen Double Diffuser?",
+          "type": "teams",
+          "team": "Mercedes",
+          "image": "",
           "answer": "Brawn GP",
           "options": ["Toyota", "Brawn GP", "Williams", "Red Bull"]
         },
         {
           "question": "Welcher Fahrer hält den Rekord für die meisten Podestplatzierungen, ohne je Weltmeister geworden zu sein?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Riccardo Patrese",
           "options": ["Stirling Moss", "Riccardo Patrese", "Daniel Riccardo", "Felipe Massa"]
         },
         {
-          "question": "Welcher Fahrer wurde 1997, im letzten Rennen, disqualifiziert?",
+          "question": "Welcher Fahrer wurde 1997 im letzten Rennen, von der Fahrer-WM, disqualifiziert?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Michael Schumacher",
           "options": [
             "Damon Hill",
@@ -165,36 +329,57 @@
         },
         {
           "question": "Welcher Fahrer ist 1978 beim Großen Preis von Italien verunglückt?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Ronnie Peterson",
           "options": ["Niki Lauda", "Ronnie Peterson", "James Hunt", "Vittorio Brambilla"]
         },
         {
-          "question": "Welcher Rennstall hat das meiste Geld für Strafen in der Formel 1 gezahlt?",
+          "question": "Welcher Rennstall hat die höchste Strafe in der Formel 1 gezahlt?",
+          "type": "teams",
+          "team": "McLaren",
+          "image": "",
           "answer": "McLaren",
           "options": ["Ferrari", "McLaren", "Williams", "Mercedes"]
         },
         {
           "question": "Welcher Grand Prix hat die längste Distanz im Rennkalender?",
+          "type": "tracks",
+          "team": "",
+          "image": "",
           "answer": "Spa-Francorchamps",
           "options": ["Mexico", "Spa-Francorchamps", "Baku", "Monza"]
         },
         {
           "question": "Welcher Rennfahrer wurde als der Professor bezeichnet?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Alan Prost",
           "options": ["Ayrton Senna", "Alan Prost", "Michael Schumacher", "Fernando Alonso"]
         },
         {
           "question": "Welcher Fahrer gewann den Weltmeistertitel nach einem der dramatischsten letzten Rennen in der Geschichte der Formel 1?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Sebastian Vettel",
           "options": ["Max Verstappen", "Sebastian Vettel", "Kimi Räikkönen", "Lewis Hamilton"]
         },
         {
           "question": "In welchem Jahr wurde das Grid Girls-Programm in der Formel 1 offiziell eingestellt?",
+          "type": "facts",
+          "team": "",
+          "image": "",
           "answer": "2018",
           "options": ["2015", "2017", "2018", "2016"]
         },
         {
           "question": "Welcher Rennfahrer gewann den ersten Grand Prix, der jemals in der Formel 1 ausgetragen wurde?",
+          "type": "facts",
+          "team": "",
+          "image": "",
           "answer": "Giuseppe Farina",
           "options": [
             "Juan Manuel Fangio",
@@ -205,21 +390,33 @@
         },
         {
           "question": "Wer war der letzte Fahrer der in der Formel-1 verunglückt ist?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "Jules Bianchi",
           "options": ["Ayrton Senna", "Jules Bianchi", "Roland Ratzenberger", "Anthoine Hubert"]
         },
         {
           "question": "Welches Team brachte Ground Effect in die Formel 1",
+          "type": "teams",
+          "team": "",
+          "image": "",
           "answer": "Lotus",
           "options": ["Williams", "Lotus", "Renault", "Red Bull"]
         },
         {
           "question": "Welches Team brachte Turbos in die Formel 1",
+          "type": "tech",
+          "team": "Renault",
+          "image": "",
           "answer": "Renault",
           "options": ["Ferrari", "Renault", "Ford", "Honda"]
         },
         {
           "question": "Welchem Zweck dient die Airbox hauptsächlich?",
+          "type": "tech",
+          "team": "",
+          "image": "",
           "answer": "Sauerstoffzufuhr für den Motor",
           "options": [
             "Verbesserte Aerodynamik",
@@ -230,31 +427,49 @@
         },
         {
           "question": "Welchen Motorsport-Klassiker konnte Jim Clark in seinem Titeljahr 1965 zusätzlich gewinnen?",
+          "type": "facts",
+          "team": "",
+          "image": "",
           "answer": "Indy 500",
           "options": ["24 Stunden von Le Mans", "12 Stunden von Sebring", "Indy 500", "Daytona 500"]
         },
         {
           "question": "Was ist ein Curb?",
+          "type": "facts",
+          "team": "",
+          "image": "",
           "answer": "Randstein",
           "options": ["Aerodynamisches Element", "Bauteil des Motors", "Randstein", "Überrollbügel"]
         },
         {
           "question": "Welches Material macht die Fahrerkleidung feuerfest?",
+          "type": "tech",
+          "team": "",
+          "image": "",
           "answer": "Nomex",
           "options": ["Stahlwolle", "Glasfaser", "Elasthan", "Nomex"]
         },
         {
           "question": "Was wurde Ende 1993 in der Formel 1 verboten?",
+          "type": "rules",
+          "team": "",
+          "image": "",
           "answer": "aktive Aufhängung",
           "options": ["Slick-Reifen", "Turbomotoren", "aktive Aufhängung", "Wing-Cars"]
         },
         {
           "question": "Wie alt war Alan Jones, als er erstmals Formel-1-Weltmeister wurde?",
+          "type": "drivers",
+          "team": "",
+          "image": "",
           "answer": "33",
           "options": ["34", "33", "21", "25"]
         },
         {
           "question": "Seit 1982 wird der Kanada GP auf dem Circuit Gilles Villeneuve gefahren. Wie hieß die Strecke vorher?",
+          "type": "tracks",
+          "team": "",
+          "image": "",
           "answer": "Ile Notre-Dame Circuit",
           "options": [
             "Circuit du Expo '67",
