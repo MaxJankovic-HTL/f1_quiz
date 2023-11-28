@@ -7,7 +7,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Red Bull?",
           "type": "teams",
           "team": "Red Bull",
-          "image": "",
+          "image": "ch.jpg",
           "answer": "Christian Horner",
           "options": ["Adrian Newey", "Christian Horner", "Günther Steiner", "Ditrich Materschitz"]
         },
@@ -15,7 +15,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Ferrari?",
           "type": "teams",
           "team": "Ferrari",
-          "image": "",
+          "image": "fv.jpg",
           "answer": "Fred Vasseur",
           "options": ["Mattia Binotto", "Fred Vasseur", "maurizio arrivabene", "Stefano Domenicali"]
         },
@@ -23,7 +23,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Mercedes?",
           "type": "teams",
           "team": "Mercedes",
-          "image": "",
+          "image": "tw.jpg",
           "answer": "Toto Wolf",
           "options": ["Ross Brawn", "Toto Wolf", "Niki Lauda", "James Vowles"]
         },
@@ -31,7 +31,7 @@
           "question": "Wie heißt der aktuelle Teamchef von McLaren?",
           "type": "teams",
           "team": "McLaren",
-          "image": "",
+          "image": "as.jpg",
           "answer": "Andrea Stella",
           "options": ["Andreas Seidl", "Andrea Stella", "Ron Dennis", "Zac Brown"]
         },
@@ -39,7 +39,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Aston Martin?",
           "type": "teams",
           "team": "Aston Martin",
-          "image": "",
+          "image": "mk.jpg",
           "answer": "Mike Krack",
           "options": ["Otmar Szafnauer", "Lawrance Stroll", "Mike Krack", "Sebastian Vettel"]
         },
@@ -47,7 +47,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Alpine?",
           "type": "teams",
           "team": "Alpine",
-          "image": "",
+          "image": "bf.jpg",
           "answer": "Bruno Famin",
           "options": ["Bruno Famin", "Otmar Szafnauer", "Cyril Abiteboul", "Flavio Briatore"]
         },
@@ -55,7 +55,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Haas?",
           "type": "teams",
           "team": "Haas",
-          "image": "",
+          "image": "gs.jpg",
           "answer": "Günther Steiner",
           "options": ["Kevin Magnussen", "Romain Grosjean", "Gene Haas", "Günther Steiner"]
         },
@@ -63,7 +63,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Williams?",
           "type": "teams",
           "team": "Williams",
-          "image": "",
+          "image": "jw.jpg",
           "answer": "James Vowles",
           "options": ["Frank Williams", "Claire Williams", "James Vowles", "Susi Wolf"]
         },
@@ -71,7 +71,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Alfa Romeo?",
           "type": "teams",
           "team": "Alfa Romeo",
-          "image": "",
+          "image": "aab.jpg",
           "answer": "Alessandro Bravi",
           "options": ["Fred Vasseur", "Andreas Seidl", "Alessandro Bravi", "Peter Sauber"]
         },
@@ -79,7 +79,7 @@
           "question": "Wie heißt der aktuelle Teamchef von Alphatauri?",
           "type": "teams",
           "team": "Alphatauri",
-          "image": "",
+          "image": "ft.jpg",
           "answer": "Franz Tost",
           "options": ["Christian Horner", "Franz Tost", "Ditrich Materschitz", "Helmut Marko"]
         },
@@ -87,7 +87,7 @@
           "question": "Wie heißt der aktuelle Formel-1-Weltmeister?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "mv.jpg",
           "answer": "Max Verstappen",
           "options": ["Charles Leclerc", "Lewis Hamilton", "Max Verstappen", "Fernando Alonso"]
         },
@@ -95,7 +95,7 @@
           "question": "Was ist die längste Formel-1-Rennstrecke?",
           "type": "tracks",
           "team": "",
-          "image": "",
+          "image": "indy.jpg",
           "answer": "Indianapolis Motor Speedway",
           "options": [
             "Circuit de Spa-Francorchamps",
@@ -108,7 +108,7 @@
           "question": "Welches Team hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
           "type": "teams",
           "team": "",
-          "image": "",
+          "image": "fvm.jpg",
           "answer": "Ferrari",
           "options": ["Mercedes", "Ferrari", "McLaren", "Williams"]
         },
@@ -116,7 +116,7 @@
           "question": "Wie viele Formel-1-Weltmeisterschaften hat Niki Lauda gewonnen?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "nl.jpg",
           "answer": "3",
           "options": ["1", "3", "2", "4"]
         },
@@ -124,7 +124,7 @@
           "question": "Welcher Fahrer hat die meisten Formel-1-Weltmeisterschaften gewonnen?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "ms.jpg",
           "answer": "Michael Schumacher",
           "options": ["Michael Schumacher", "Lewis Hamilton", "Juan Manuel Fangio", "Alain Prost"]
         }
@@ -137,7 +137,7 @@
           "question": "Welche Farbe haben die Reifen in der Formel 1?",
           "type": "tech",
           "team": "",
-          "image": "",
+          "image": ".jpg",
           "answer": "Schwarz",
           "options": ["Schwarz", "Weiß", "Blau", "Rot"]
         },
@@ -145,7 +145,7 @@
           "question": "Wie viele Motoren darf ein Formel-1-Auto pro Saison verwenden?",
           "type": "rules",
           "team": "",
-          "image": "",
+          "image": ".jpg",
           "answer": "3",
           "options": ["2", "3", "4", "5"]
         },
@@ -153,7 +153,7 @@
           "question": "Wie viele Gänge hat ein Formel-1-Getriebe?",
           "type": "tech",
           "team": "",
-          "image": "",
+          "image": ".jpg",
           "answer": "8",
           "options": ["6", "7", "8", "9"]
         },
@@ -217,7 +217,7 @@
           "question": "Welcher Fahrer wurde als der Regenmeister bezeichnet?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "ms.jpg",
           "answer": "Michael Schumacher",
           "options": ["Max Verstappen", "Ayrton Senna", "Michael Schumacher", "Jim Clark"]
         },
@@ -262,7 +262,7 @@
           "question": "Welcher Fahrer hält den Rekord für die meisten aufeinanderfolgenden Grand-Prix-Siege?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "mv.jpg",
           "answer": "Max Verstappen",
           "options": ["Max Verstappen", "Sebastian Vettel", "Michael Schumacher", "Lewis Hamilton"]
         },
@@ -270,7 +270,7 @@
           "question": "Welches Team gewann die erste Formel-1-Konstrukteursmeisterschaft?",
           "type": "teams",
           "team": "Alfa Romeo",
-          "image": "",
+          "image": "f1_50s.jpg",
           "answer": "Alfa Romeo",
           "options": ["Ferrari", "Alfa Romeo", "Maserati", "Mercedes"]
         },
@@ -379,7 +379,7 @@
           "question": "Welcher Rennfahrer gewann den ersten Grand Prix, der jemals in der Formel 1 ausgetragen wurde?",
           "type": "facts",
           "team": "",
-          "image": "",
+          "image": "gf.jpg",
           "answer": "Giuseppe Farina",
           "options": [
             "Juan Manuel Fangio",
