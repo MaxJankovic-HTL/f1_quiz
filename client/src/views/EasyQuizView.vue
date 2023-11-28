@@ -18,11 +18,13 @@ onMounted(() => {
 const checkAnswer = (option) => {
   if (option === correctAnswer.value) {
     isCorrect.value = true;
-    alert('Congratulations! You answered correctly.');
   } else {
-    isCorrect.value = false;  
-    alert('Incorrect answer. The correct answer is ' + correctAnswer.value);
+    isCorrect.value = false;
   }
+};
+
+const nextQuestion = () => {
+  window.location.reload();
 };
 </script>
 
@@ -35,30 +37,81 @@ const checkAnswer = (option) => {
         <h5 class="card-title mt-3">{{ showQuestion.map((el) => el.question).toString() }}</h5>
       </div>
       <div class="card-footer text-muted">
-        <btn
+        <button
           href="#"
+          type="button"
           class="btn btn-outline-secondary mx-4 mt-2 mb-2"
+          data-bs-toggle="modal"
+          data-bs-target="#feedbackModal"
           @click="checkAnswer(showQuestion.map((el) => el.options[0]).toString())"
-          >{{ showQuestion.map((el) => el.options[0]).toString() }}</btn
         >
-        <btn
+          {{ showQuestion.map((el) => el.options[0]).toString() }}
+        </button>
+        <button
           href="#"
+          type="button"
           class="btn btn-outline-secondary mx-4 mt-2 mb-2"
+          data-bs-toggle="modal"
+          data-bs-target="#feedbackModal"
           @click="checkAnswer(showQuestion.map((el) => el.options[1]).toString())"
-          >{{ showQuestion.map((el) => el.options[1]).toString() }}</btn
         >
-        <btn
+          {{ showQuestion.map((el) => el.options[1]).toString() }}
+        </button>
+        <button
           href="#"
+          type="button"
           class="btn btn-outline-secondary mx-4 mt-2 mb-2"
+          data-bs-toggle="modal"
+          data-bs-target="#feedbackModal"
           @click="checkAnswer(showQuestion.map((el) => el.options[2]).toString())"
-          >{{ showQuestion.map((el) => el.options[2]).toString() }}</btn
         >
-        <btn
+          {{ showQuestion.map((el) => el.options[2]).toString() }}
+        </button>
+        <button
           href="#"
+          type="button"
           class="btn btn-outline-secondary mx-4 mt-2 mb-2"
+          data-bs-toggle="modal"
+          data-bs-target="#feedbackModal"
           @click="checkAnswer(showQuestion.map((el) => el.options[3]).toString())"
-          >{{ showQuestion.map((el) => el.options[3]).toString() }}</btn
         >
+          {{ showQuestion.map((el) => el.options[3]).toString() }}
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="feedbackModal"
+      tabindex="-1"
+      aria-labelledby="feedbackModalLabel"
+      aria-hidden="true"
+      @click="nextQuestion"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header {{ isCorrect.value ? 'bg-success' : 'bg-danger' }}">
+            <h5 class="modal-title" id="feedbackModalLabel">Feedback</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              {{
+                isCorrect.value
+                  ? 'Congratulations! You answered correctly.'
+                  : `Incorrect answer. The correct answer is ${correctAnswer.value}.`
+              }}
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Next</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -69,7 +122,21 @@ body {
   background-color: #f7f4f1;
 }
 
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .btn {
-  width: 250px;
+  width: 45%;
+  height: 45%;
+  margin: 5px;
+}
+
+.card-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 </style>
