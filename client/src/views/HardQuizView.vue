@@ -33,83 +33,93 @@ const nextQuestion = () => {
     <div class="card text-center">
       <div class="card-header text-light" style="background-color: #e10700"><b>- HARD -</b></div>
       <div class="card-body">
-        <img src="../../public/images/f1_empty_image.png" style="width: 60%" />
-        <h5 class="card-title mt-3">{{ showQuestion.map((el) => el.question).toString() }}</h5>
-      </div>
-      <div class="card-footer text-muted">
-        <button
-          href="#"
-          type="button"
-          class="btn btn-outline-secondary mx-4 mt-2 mb-2"
-          data-bs-toggle="modal"
-          data-bs-target="#feedbackModal"
-          @click="checkAnswer(showQuestion.map((el) => el.options[0]).toString())"
-        >
-          {{ showQuestion.map((el) => el.options[0]).toString() }}
-        </button>
-        <button
-          href="#"
-          type="button"
-          class="btn btn-outline-secondary mx-4 mt-2 mb-2"
-          data-bs-toggle="modal"
-          data-bs-target="#feedbackModal"
-          @click="checkAnswer(showQuestion.map((el) => el.options[1]).toString())"
-        >
-          {{ showQuestion.map((el) => el.options[1]).toString() }}
-        </button>
-        <button
-          href="#"
-          type="button"
-          class="btn btn-outline-secondary mx-4 mt-2 mb-2"
-          data-bs-toggle="modal"
-          data-bs-target="#feedbackModal"
-          @click="checkAnswer(showQuestion.map((el) => el.options[2]).toString())"
-        >
-          {{ showQuestion.map((el) => el.options[2]).toString() }}
-        </button>
-        <button
-          href="#"
-          type="button"
-          class="btn btn-outline-secondary mx-4 mt-2 mb-2"
-          data-bs-toggle="modal"
-          data-bs-target="#feedbackModal"
-          @click="checkAnswer(showQuestion.map((el) => el.options[3]).toString())"
-        >
-          {{ showQuestion.map((el) => el.options[3]).toString() }}
-        </button>
-      </div>
-    </div>
+        <div class="container">
+          <img
+            :src="
+              `../../public/images/question images/${showQuestion
+                .map((el) => el.image)
+                .toString()}` || '../../public/images/f1_empty_image.png'
+            "
+            style="width: 60%"
+          />
 
-    <div
-      class="modal fade"
-      id="feedbackModal"
-      tabindex="-1"
-      aria-labelledby="feedbackModalLabel"
-      aria-hidden="true"
-      @click="nextQuestion"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header {{ isCorrect.value ? 'bg-success' : 'bg-danger' }}">
-            <h5 class="modal-title" id="feedbackModalLabel">Feedback</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              {{
-                isCorrect.value
-                  ? 'Congratulations! You answered correctly.'
-                  : `Incorrect answer. The correct answer is ${correctAnswer.value}.`
-              }}
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Next</button>
+          <h5 class="card-title mt-3">{{ showQuestion.map((el) => el.question).toString() }}</h5>
+        </div>
+        <div class="card-footer text-muted">
+          <button
+            href="#"
+            type="button"
+            class="btn btn-outline-secondary mx-4 mt-2 mb-2"
+            data-bs-toggle="modal"
+            data-bs-target="#feedbackModal"
+            @click="checkAnswer(showQuestion.map((el) => el.options[0]).toString())"
+          >
+            {{ showQuestion.map((el) => el.options[0]).toString() }}
+          </button>
+          <button
+            href="#"
+            type="button"
+            class="btn btn-outline-secondary mx-4 mt-2 mb-2"
+            data-bs-toggle="modal"
+            data-bs-target="#feedbackModal"
+            @click="checkAnswer(showQuestion.map((el) => el.options[1]).toString())"
+          >
+            {{ showQuestion.map((el) => el.options[1]).toString() }}
+          </button>
+          <button
+            href="#"
+            type="button"
+            class="btn btn-outline-secondary mx-4 mt-2 mb-2"
+            data-bs-toggle="modal"
+            data-bs-target="#feedbackModal"
+            @click="checkAnswer(showQuestion.map((el) => el.options[2]).toString())"
+          >
+            {{ showQuestion.map((el) => el.options[2]).toString() }}
+          </button>
+          <button
+            href="#"
+            type="button"
+            class="btn btn-outline-secondary mx-4 mt-2 mb-2"
+            data-bs-toggle="modal"
+            data-bs-target="#feedbackModal"
+            @click="checkAnswer(showQuestion.map((el) => el.options[3]).toString())"
+          >
+            {{ showQuestion.map((el) => el.options[3]).toString() }}
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="feedbackModal"
+        tabindex="-1"
+        aria-labelledby="feedbackModalLabel"
+        aria-hidden="true"
+        @click="nextQuestion"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header {{ isCorrect.value ? 'bg-success' : 'bg-danger' }}">
+              <h5 class="modal-title" id="feedbackModalLabel">Feedback</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                {{
+                  isCorrect.value
+                    ? 'Congratulations! You answered correctly.'
+                    : `Incorrect answer. The correct answer is ${correctAnswer.value}.`
+                }}
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Next</button>
+            </div>
           </div>
         </div>
       </div>
