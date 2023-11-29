@@ -1,80 +1,57 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
 
 <template>
   <div class="site">
     <section class="section py-5 text-center">
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">fast faster F1</h1>
-          <p class="lead text-muted">
-            Something short and leading about the collection below—its contents, the creator, etc.
-            Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
-          </p>
+          <h1 class="fw-bold">FAST ➔ FASTER ➔ F1</h1>
+          <p class="lead text-muted"></p>
         </div>
       </div>
     </section>
 
-    <div class="container mt-4">
+    <div class="container">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+        <RouterLink class="col w-25 nav-link mx-5" to="/easy-quiz">
           <div class="card h-100 text-center">
-            <img src="../../public/images/" class="card-img-top" alt="..." />
+            <img src="../../public/images/tyres/soft.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">EASY QUIZ</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">> go there ></small>
+              <h5 class="card-title">QUIZ - EASY</h5>
+              <p class="card-text"></p>
             </div>
           </div>
-        </div>
+        </RouterLink>
 
-        <div class="col">
+        <RouterLink class="col w-25 nav-link mx-5" to="/medium-quiz">
           <div class="card h-100 text-center">
-            <img src="..." class="card-img-top" alt="..." />
+            <img src="../../public/images/tyres/medium.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">MEDIUM QUIZ</h5>
-              <p class="card-text">
-                This card has supporting text below as a natural lead-in to additional content.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">> go there ></small>
+              <h5 class="card-title">QUIZ - MEDIUM</h5>
+              <p class="card-text"></p>
             </div>
           </div>
-        </div>
+        </RouterLink>
 
-        <div class="col">
+        <RouterLink class="col w-25 nav-link mx-5" to="/hard-quiz">
           <div class="card h-100 text-center">
-            <img src="..." class="card-img-top" alt="..." />
+            <img src="../../public/images/tyres/hard.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">HARD QUIZ</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height
-                action.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">> go there ></small>
+              <h5 class="card-title">QUIZ - HARD</h5>
+              <p class="card-text"></p>
             </div>
           </div>
-        </div>
+        </RouterLink>
       </div>
     </div>
   </div>
 </template>
 
 <style>
-.section {
-  background-color:whitesmoke;
-}
-
 .site {
-  background-color:azure;
-  padding-bottom: 100%;
+  background-color: f7f4f1;
+  padding-bottom: 25%;
 }
 </style>
