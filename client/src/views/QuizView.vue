@@ -18,7 +18,7 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100 text-center">
-            <img src="../../public/images/question images/" class="card-img-top" alt="..." />
+            <img src="../../public/images/" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">EASY QUIZ</h5>
               <p class="card-text">
