@@ -96,7 +96,7 @@ const nextQuestion = () => {
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header {{ isCorrect.value ? 'bg-success' : 'bg-danger' }}">
+          <div class="modal-header `{{ isCorrect.value ? 'bg-success' : 'bg-danger' }}`">
             <h5 class="modal-title" id="feedbackModalLabel">Feedback</h5>
             <button
               type="button"
@@ -105,6 +105,7 @@ const nextQuestion = () => {
               aria-label="Close"
             ></button>
           </div>
+
           <div class="modal-body">
             <p>
               {{
