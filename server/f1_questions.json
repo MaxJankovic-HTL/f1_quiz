@@ -137,7 +137,7 @@
           "question": "Welche Farbe haben die Reifen in der Formel 1?",
           "type": "tech",
           "team": "",
-          "image": ".jpg",
+          "image": "reifen.jpg",
           "answer": "Schwarz",
           "options": ["Schwarz", "Weiß", "Blau", "Rot"]
         },
@@ -145,7 +145,7 @@
           "question": "Wie viele Motoren darf ein Formel-1-Auto pro Saison verwenden?",
           "type": "rules",
           "team": "",
-          "image": ".jpg",
+          "image": "motor.jpg",
           "answer": "3",
           "options": ["2", "3", "4", "5"]
         },
@@ -153,7 +153,7 @@
           "question": "Wie viele Gänge hat ein Formel-1-Getriebe?",
           "type": "tech",
           "team": "",
-          "image": ".jpg",
+          "image": "getriebe.jpg",
           "answer": "8",
           "options": ["6", "7", "8", "9"]
         },
@@ -161,7 +161,7 @@
           "question": "In welchem Jahr wurde die erste offizielle Formel-1-Weltmeisterschaft ausgetragen?",
           "type": "facts",
           "team": "",
-          "image": "",
+          "image": "f1_50s.jpg",
           "answer": "1950",
           "options": ["1945", "1950", "1940", "1930"]
         },
@@ -169,7 +169,7 @@
           "question": "In welchem Land findet das berühmte Nachtrennen der Formel 1 statt?",
           "type": "facts",
           "team": "",
-          "image": "",
+          "image": "singapur.jpg",
           "answer": "Singapore",
           "options": ["Bahrain", "Singapore", "Las Vegas", "Saudi Arabien"]
         },
@@ -177,7 +177,7 @@
           "question": "Wie viele Punkte erhält der Sieger eines Formel-1-Rennens?",
           "type": "rules",
           "team": "",
-          "image": "",
+          "image": "sieger.jpg",
           "answer": "25",
           "options": ["30", "20", "10", "25"]
         },
@@ -185,7 +185,7 @@
           "question": "Welches Team dominierte die Formel 1 in den 2010er Jahren?",
           "type": "facts",
           "team": "",
-          "image": "",
+          "image": "merc_vs_rb.jpg",
           "answer": "Mercedes",
           "options": ["Red Bull", "McLaren", "Mercedes", "Ferrari"]
         },
@@ -193,7 +193,7 @@
           "question": "Welcher italienische Rennstall ist als die Scuderia bekannt?",
           "type": "teams",
           "team": "Ferrari",
-          "image": "",
+          "image": "scuderia.jpg",
           "answer": "Ferrari",
           "options": ["Alfa Romeo", "Lancia", "Ferrari", "Maserati"]
         },
@@ -201,7 +201,7 @@
           "question": "Welcher Fahrer gewann den ersten Formel-1-Weltmeistertitel?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "f1_50s.jpg",
           "answer": "Giuseppe Farina",
           "options": ["Alberto Ascari", "Juan Manuel Fangio", "Giuseppe Farina", "Stirling Moss"]
         },
@@ -209,7 +209,7 @@
           "question": "Welcher Fahrer gewann in den 1950er Jahren fünf Formel-1-Weltmeistertitel?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "jmf.jpg",
           "answer": "Juan Manuel Fangio",
           "options": ["Alberto Ascari", "Juan Manuel Fangio", "Giuseppe Farina", "Stirling Moss"]
         },
@@ -225,7 +225,7 @@
           "question": "Mit welchem Team gewann Fernando Alonso seine Weltmeistertitel?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "RvMvF.jpg",
           "answer": "Renault",
           "options": ["Ferrari", "Renault", "McLaren", "Toyota"]
         },
@@ -233,7 +233,7 @@
           "question": "Welche Strecke ist als der Tempel of Speed bekannt",
           "type": "tracks",
           "team": "",
-          "image": "",
+          "image": "monza.jpg",
           "answer": "Monza",
           "options": ["Baku", "Spa", "Monza", "Silverstone"]
         },
@@ -241,7 +241,7 @@
           "question": "Welcher Rennfahrer ist für seinen spektakulären Überholvorgang beim Grand Prix von Europa 1993 in Donington Park bekannt?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "donington.jpg",
           "answer": "Ayrton Senna",
           "options": ["Nigel Mansell", "Ayrton Senna", "Alain Prost", "Damon Hill"]
         },
@@ -249,7 +249,7 @@
           "question": "Welcher Fahrer gewann den Titel 2007?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "2007.jpg",
           "answer": "Kimi Räikkönen",
           "options": ["Fernando Alonso", "Felipe Massa", "Kimi Räikkönen", "Lewis Hamilton"]
         }
@@ -278,15 +278,15 @@
           "question": "Wer ist der einzige Fahrer, der posthum den Formel-1-Weltmeistertitel gewonnen hat?",
           "type": "drivers",
           "team": "",
-          "image": "",
-          "answer": "Jochen Rind",
-          "options": ["Ayrton Senna", "Jochen Rind", "Jim Clark", "Stirling Moss"]
+          "image": "jr.jpg",
+          "answer": "Jochen Rindt",
+          "options": ["Ayrton Senna", "Jochen Rindt", "Jim Clark", "Stirling Moss"]
         },
         {
           "question": "Welcher Fahrer wurde als der fliegende Finne bekannt?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "mh.jpg",
           "answer": "Mika Häkkinnen",
           "options": ["Kimi Räikkönen", "Mika Häkkinnen", "Mika Salo", "Hanu Mikula"]
         },
@@ -294,7 +294,7 @@
           "question": "Welcher Rennfahrer hält den Rekord für die meisten schnellsten Rennrunden in einer Saison?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "kr.jpg",
           "answer": "Kimi Räikkönen",
           "options": ["Fernando Alonso", "Michael Schumacher", "Kimi Räikkönen", "Max Verstappen"]
         },
@@ -302,7 +302,7 @@
           "question": "Welcher Rennstall war berüchtigt für seinen Double Diffuser?",
           "type": "teams",
           "team": "Mercedes",
-          "image": "",
+          "image": "double_diffuser.jpg",
           "answer": "Brawn GP",
           "options": ["Toyota", "Brawn GP", "Williams", "Red Bull"]
         },
@@ -310,7 +310,7 @@
           "question": "Welcher Fahrer hält den Rekord für die meisten Podestplatzierungen, ohne je Weltmeister geworden zu sein?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "rp.jpg",
           "answer": "Riccardo Patrese",
           "options": ["Stirling Moss", "Riccardo Patrese", "Daniel Riccardo", "Felipe Massa"]
         },
@@ -318,7 +318,7 @@
           "question": "Welcher Fahrer wurde 1997 im letzten Rennen, von der Fahrer-WM, disqualifiziert?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "97jerez.jpg",
           "answer": "Michael Schumacher",
           "options": [
             "Damon Hill",
@@ -331,7 +331,7 @@
           "question": "Welcher Fahrer ist 1978 beim Großen Preis von Italien verunglückt?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "78italy.jpg",
           "answer": "Ronnie Peterson",
           "options": ["Niki Lauda", "Ronnie Peterson", "James Hunt", "Vittorio Brambilla"]
         },
@@ -339,7 +339,7 @@
           "question": "Welcher Rennstall hat die höchste Strafe in der Formel 1 gezahlt?",
           "type": "teams",
           "team": "McLaren",
-          "image": "",
+          "image": "mcl_2007.jpg",
           "answer": "McLaren",
           "options": ["Ferrari", "McLaren", "Williams", "Mercedes"]
         },
@@ -347,7 +347,7 @@
           "question": "Welcher Grand Prix hat die längste Distanz im Rennkalender?",
           "type": "tracks",
           "team": "",
-          "image": "",
+          "image": "spa.jpg",
           "answer": "Spa-Francorchamps",
           "options": ["Mexico", "Spa-Francorchamps", "Baku", "Monza"]
         },
@@ -355,7 +355,7 @@
           "question": "Welcher Rennfahrer wurde als der Professor bezeichnet?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "ap.jpg",
           "answer": "Alan Prost",
           "options": ["Ayrton Senna", "Alan Prost", "Michael Schumacher", "Fernando Alonso"]
         },
@@ -363,7 +363,7 @@
           "question": "Welcher Fahrer gewann den Weltmeistertitel nach einem der dramatischsten letzten Rennen in der Geschichte der Formel 1?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "sv.jpg",
           "answer": "Sebastian Vettel",
           "options": ["Max Verstappen", "Sebastian Vettel", "Kimi Räikkönen", "Lewis Hamilton"]
         },
@@ -371,7 +371,7 @@
           "question": "In welchem Jahr wurde das Grid Girls-Programm in der Formel 1 offiziell eingestellt?",
           "type": "facts",
           "team": "",
-          "image": "",
+          "image": "grid_girls.jpg",
           "answer": "2018",
           "options": ["2015", "2017", "2018", "2016"]
         },
@@ -392,7 +392,7 @@
           "question": "Wer war der letzte Fahrer der in der Formel-1 verunglückt ist?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "suzuka.jpg",
           "answer": "Jules Bianchi",
           "options": ["Ayrton Senna", "Jules Bianchi", "Roland Ratzenberger", "Anthoine Hubert"]
         },
@@ -400,7 +400,7 @@
           "question": "Welches Team brachte Ground Effect in die Formel 1",
           "type": "teams",
           "team": "",
-          "image": "",
+          "image": "lotus.jpg",
           "answer": "Lotus",
           "options": ["Williams", "Lotus", "Renault", "Red Bull"]
         },
@@ -408,7 +408,7 @@
           "question": "Welches Team brachte Turbos in die Formel 1",
           "type": "tech",
           "team": "Renault",
-          "image": "",
+          "image": "RenaultRSo1.jpg",
           "answer": "Renault",
           "options": ["Ferrari", "Renault", "Ford", "Honda"]
         },
@@ -416,7 +416,7 @@
           "question": "Welchem Zweck dient die Airbox hauptsächlich?",
           "type": "tech",
           "team": "",
-          "image": "",
+          "image": "airbox.jpg",
           "answer": "Sauerstoffzufuhr für den Motor",
           "options": [
             "Verbesserte Aerodynamik",
@@ -429,7 +429,7 @@
           "question": "Welchen Motorsport-Klassiker konnte Jim Clark in seinem Titeljahr 1965 zusätzlich gewinnen?",
           "type": "facts",
           "team": "",
-          "image": "",
+          "image": "indy.jpg",
           "answer": "Indy 500",
           "options": ["24 Stunden von Le Mans", "12 Stunden von Sebring", "Indy 500", "Daytona 500"]
         },
@@ -437,7 +437,7 @@
           "question": "Was ist ein Curb?",
           "type": "facts",
           "team": "",
-          "image": "",
+          "image": "curb.jpg",
           "answer": "Randstein",
           "options": ["Aerodynamisches Element", "Bauteil des Motors", "Randstein", "Überrollbügel"]
         },
@@ -445,7 +445,7 @@
           "question": "Welches Material macht die Fahrerkleidung feuerfest?",
           "type": "tech",
           "team": "",
-          "image": "",
+          "image": "anzug.jpg",
           "answer": "Nomex",
           "options": ["Stahlwolle", "Glasfaser", "Elasthan", "Nomex"]
         },
@@ -453,7 +453,7 @@
           "question": "Was wurde Ende 1993 in der Formel 1 verboten?",
           "type": "rules",
           "team": "",
-          "image": "",
+          "image": "fw14b.jpg",
           "answer": "aktive Aufhängung",
           "options": ["Slick-Reifen", "Turbomotoren", "aktive Aufhängung", "Wing-Cars"]
         },
@@ -461,7 +461,7 @@
           "question": "Wie alt war Alan Jones, als er erstmals Formel-1-Weltmeister wurde?",
           "type": "drivers",
           "team": "",
-          "image": "",
+          "image": "aj.jpg",
           "answer": "33",
           "options": ["34", "33", "21", "25"]
         },
@@ -469,7 +469,7 @@
           "question": "Seit 1982 wird der Kanada GP auf dem Circuit Gilles Villeneuve gefahren. Wie hieß die Strecke vorher?",
           "type": "tracks",
           "team": "",
-          "image": "",
+          "image": "canada.jpg",
           "answer": "Ile Notre-Dame Circuit",
           "options": [
             "Circuit du Expo '67",
