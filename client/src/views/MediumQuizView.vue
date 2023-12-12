@@ -117,8 +117,8 @@ const nextQuestion = () => {
       <li></li>
     </ul>
 
-    <div class="container text-center pt-5">
-      <div class="card opacity-75">
+    <div class="container text-center pt-5" style="opacity: 80%">
+      <div class="card border-dark">
         <div class="card-header text-light" style="background-color: #e10700">
           <b>- MEDIUM -</b>
         </div>
