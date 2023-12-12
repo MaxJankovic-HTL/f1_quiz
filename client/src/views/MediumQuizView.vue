@@ -5,6 +5,7 @@ import { onMounted, ref } from 'vue';
 let showQuestion = ref([]);
 let correctAnswer = ref('');
 let isCorrect = ref(false);
+let score = ref(0);
 
 onMounted(() => {
   const mediumData = data.fragen.filter((item) => item.difficulty === 'medium');
@@ -17,18 +18,91 @@ onMounted(() => {
 
 const checkAnswer = (option) => {
   if (option === correctAnswer.value) {
+    scoreCount(1);
     isCorrect.value = true;
   } else {
+    scoreCount(0);
     isCorrect.value = false;
   }
 };
 
+function scoreCount(checkNum) {
+  if (checkNum == 0) {
+    score.value = 0;
+  } else {
+    score.value += 1;
+  }
+}
+
 const nextQuestion = () => {
-  window.location.reload();
+  // Generate new random question
+  const mediumData = data.fragen.filter((item) => item.difficulty === 'medium');
+  const randomIndex = Math.floor(Math.random() * mediumData[0].questions.length);
+  const question = mediumData[0].questions[randomIndex];
+
+  showQuestion.value = [question];
+  correctAnswer.value = question.answer;
+  isCorrect.value = false;
+
+  // Re-render component to display new question
+  const vm = this;
+  vm.$nextTick(() => {
+    vm.$emit('update:questionData');
+  });
 };
 </script>
 
 <template>
+  <div
+    class="modal fade"
+    id="feedbackModal"
+    tabindex="-1"
+    aria-labelledby="feedbackModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog text-center">
+      <div class="modal-content">
+        <div
+          class="modal-header text-light"
+          :class="{ 'bg-success': isCorrect, 'bg-danger': !isCorrect }"
+        >
+          <h5 class="modal-title" id="feedbackModalLabel">Feedback:</h5>
+        </div>
+
+        <div class="modal-body" :class="{ 'text-success': isCorrect, 'text-danger': !isCorrect }">
+          <p>
+            {{
+              isCorrect == true
+                ? 'Congratulations! You answered correctly.'
+                : `Incorrect answer. The correct answer is "${correctAnswer}".`
+            }}
+          </p>
+          <p>
+            <button
+              class="btn btn-lg"
+              :class="{ 'btn-outline-success': isCorrect, 'btn-outline-danger': !isCorrect }"
+              disabled
+            >
+              Score: {{ score }}
+            </button>
+          </p>
+        </div>
+
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn text-light"
+            :class="{ 'btn-success': isCorrect, 'btn-danger': !isCorrect }"
+            data-bs-dismiss="modal"
+            @click="nextQuestion"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="area">
     <ul class="circles">
       <li></li>
@@ -42,6 +116,7 @@ const nextQuestion = () => {
       <li></li>
       <li></li>
     </ul>
+
     <div class="container text-center pt-5">
       <div class="card opacity-75">
         <div class="card-header text-light" style="background-color: #e10700">
@@ -49,9 +124,10 @@ const nextQuestion = () => {
         </div>
         <div class="card-body">
           <img
-            :src="`../../public/images/question images/${showQuestion
-              .map((el) => el.image)
-              .toString()}`"
+            :src="
+              `/images/question images/${showQuestion.map((el) => el.image).toString()}` ||
+              '/images/f1_empty_image.png'
+            "
             style="width: 60%"
           />
           <h5 class="card-title mt-3">{{ showQuestion.map((el) => el.question).toString() }}</h5>
@@ -97,41 +173,6 @@ const nextQuestion = () => {
           >
             {{ showQuestion.map((el) => el.options[3]).toString() }}
           </button>
-        </div>
-      </div>
-
-      <div
-        class="modal fade"
-        id="feedbackModal"
-        tabindex="-1"
-        aria-labelledby="feedbackModalLabel"
-        aria-hidden="true"
-        @click="nextQuestion"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header {{ isCorrect.value ? 'bg-success' : 'bg-danger' }}">
-              <h5 class="modal-title" id="feedbackModalLabel">Feedback</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <p>
-                {{
-                  isCorrect.value
-                    ? 'Congratulations! You answered correctly.'
-                    : `Incorrect answer. The correct answer is ${correctAnswer.value}.`
-                }}
-              </p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Next</button>
-            </div>
-          </div>
         </div>
       </div>
     </div>

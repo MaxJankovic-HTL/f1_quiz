@@ -18,7 +18,7 @@ import { RouterLink } from 'vue-router';
     </ul>
     <div class="site">
       <section class="section py-2 text-center text-light shadow-lg">
-        <div class="row py-lg-5">
+        <div class="py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto mt-2">
             <h1 class="fw-bold">FAST ➔ FASTER ➔ F1</h1>
             <p class="lead text-muted"></p>
