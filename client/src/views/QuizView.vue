@@ -29,9 +29,9 @@ import { RouterLink } from 'vue-router';
       <div class="container mt-5">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <RouterLink class="col w-25 nav-link mx-5" to="/quiz-easy">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center border-dark" style="opacity: 80%">
               <img src="../../public/images/tyres/soft.png" class="card-img-top" alt="..." />
-              <div class="card-body" style="background-color: whitesmoke">
+              <div class="card-footer border-dark" style="background-color: whitesmoke">
                 <h5 class="card-title">QUIZ - EASY</h5>
                 <p class="card-text"></p>
               </div>
@@ -39,9 +39,9 @@ import { RouterLink } from 'vue-router';
           </RouterLink>
 
           <RouterLink class="col w-25 nav-link mx-5" to="/quiz-medium">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center border-dark" style="opacity: 80%">
               <img src="../../public/images/tyres/medium.png" class="card-img-top" alt="..." />
-              <div class="card-body" style="background-color: whitesmoke">
+              <div class="card-footer border-dark" style="background-color: whitesmoke">
                 <h5 class="card-title">QUIZ - MEDIUM</h5>
                 <p class="card-text"></p>
               </div>
@@ -49,9 +49,9 @@ import { RouterLink } from 'vue-router';
           </RouterLink>
 
           <RouterLink class="col w-25 nav-link mx-5" to="/quiz-hard">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center border-dark" style="opacity: 80%">
               <img src="../../public/images/tyres/hard.png" class="card-img-top" alt="..." />
-              <div class="card-body" style="background-color: whitesmoke">
+              <div class="card-footer border-dark" style="background-color: whitesmoke">
                 <h5 class="card-title">QUIZ - HARD</h5>
                 <p class="card-text"></p>
               </div>

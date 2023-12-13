@@ -3,7 +3,10 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <nav style="background-color: #e10600" class="navbar navbar-expand-lg navbar-dark bg-red py-3">
+  <nav
+    style="background-color: #e10600"
+    class="navbar navbar-expand-lg navbar-dark bg-red py-3"
+  >
     <div class="container-fluid">
       <RouterLink class="navbar-brand mx-3" to="/" style="color: white; font-weight: 500"
         ><img src="../../public/images/f1_logo.png" style="height: 50px; margin-top: -2px" />
