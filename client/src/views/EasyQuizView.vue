@@ -81,7 +81,7 @@ const nextQuestion = () => {
             <button
               class="btn btn-lg"
               :class="{ 'btn-outline-success': isCorrect, 'btn-outline-danger': !isCorrect }"
-              disabled
+              disableds
             >
               Score: {{ score }}
             </button>
