@@ -126,7 +126,7 @@ const nextQuestion = () => {
               `/images/question images/${showQuestion.map((el) => el.image).toString()}` ||
               '/images/f1_empty_image.png'
             "
-            style="width: 60%"
+            class="img"
           />
 
           <h5 class="card-title mt-3">{{ showQuestion.map((el) => el.question).toString() }}</h5>
@@ -181,6 +181,12 @@ const nextQuestion = () => {
 <style>
 body {
   background-color: #f7f4f1;
+}
+
+.img {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .btn-container {
