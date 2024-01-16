@@ -23,6 +23,11 @@ const router = createRouter({
       name: 'quiz-hard',
       component: () => import('../views/HardQuizView.vue'),
     },
+    {
+      path: '/puzzle',
+      name: 'puzzle',
+      component: () => import('../views/TestPuzzle.vue'),
+    },
   ],
 });
 

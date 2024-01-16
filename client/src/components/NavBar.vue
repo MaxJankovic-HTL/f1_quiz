@@ -40,6 +40,11 @@ import { RouterLink } from 'vue-router';
               >HARD</RouterLink
             >
           </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link active mx-3" aria-current="page" to="/puzzle"
+              >PUZZLE</RouterLink
+            >
+          </li>
         </ul>
       </div>
     </div>
